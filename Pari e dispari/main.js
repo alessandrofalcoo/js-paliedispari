@@ -10,3 +10,8 @@ let user_choice = prompt('Scommetti se il numero che esce è pari o dispari');
 let user_number = parseInt(prompt('Inserisci un numero compreso tra 1 e 5'));
 console.log(user_number);
 
+// Creo la funzione per generare il numero del computer
+function randomNumber() {
+    const randomNum = Math.floor(Math.random() * 5) + 1;
+    return randomNum
+}

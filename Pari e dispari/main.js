@@ -26,3 +26,20 @@ function sumNumbers(num1, num2) {
     const sum = num1 + num2;
     return sum
 }
+
+sumNumbers(user_number, pc_number);
+
+// Decreto le condizioni di vittoria o di sconfitta dell'utente
+if (sumNumbers(user_number, pc_number) % 2 === 0 && user_choice == 'pari') {
+    console.log('Hai vinto');
+
+} else if (sumNumbers(user_number, pc_number) % 2 === 0 && user_choice == 'dispari') {
+    console.log('Hai perso');
+
+} else if (sumNumbers(user_number, pc_number) % 2 !== 0 && user_choice == 'dispari') {
+    console.log('Hai vinto');
+    
+} else {
+    console.log('Hai perso');
+    
+}

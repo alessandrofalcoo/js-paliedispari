@@ -15,3 +15,14 @@ function randomNumber() {
     const randomNum = Math.floor(Math.random() * 5) + 1;
     return randomNum
 }
+
+//Richiamo la funzione salvandola in una variabile
+let pc_number = randomNumber();
+console.log(pc_number);
+
+
+// Creo una funzione per sommare il numero dell'utente e quello del computer generato casualmente
+function sumNumbers(num1, num2) {
+    const sum = num1 + num2;
+    return sum
+}

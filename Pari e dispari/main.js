@@ -28,6 +28,8 @@ function sumNumbers(num1, num2) {
 }
 
 sumNumbers(user_number, pc_number);
+console.log(sumNumbers(user_number, pc_number));
+
 
 // Decreto le condizioni di vittoria o di sconfitta dell'utente
 if (sumNumbers(user_number, pc_number) % 2 === 0 && user_choice == 'pari') {

@@ -9,7 +9,7 @@ const user_word = prompt("Inserisci una parola e ti dirò se è palindroma");
 // Creo la funzione per invertire i caratteri di una parola 
 function checkPalindrom(word) {
 
-   
+
     return word == word.split('').reverse().join('');
 
 }
@@ -19,10 +19,10 @@ checkPalindrom(user_word)
 
 
 // Creo un condizionale per verificare se la parola inserita dall'utente è palindroma o no
- if (checkPalindrom(user_word)) {
-        console.log('La parola è palindroma');
+if (checkPalindrom(user_word)) {
+    console.log('La parola è palindroma');
 
-    } else {
-        console.log('La parola non è palindroma');
+} else {
+    console.log('La parola non è palindroma');
 
-    }
+}
